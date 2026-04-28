@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://edo0xff.github.io/kickstarter-mexa-ranking/sitemap-index.xml

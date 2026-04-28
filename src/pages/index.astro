@@ -35,16 +35,57 @@ const formattedDate = generatedAt.toLocaleDateString('es-MX', {
   year: 'numeric', month: 'long', day: 'numeric',
   hour: '2-digit', minute: '2-digit', timeZone: 'UTC', timeZoneName: 'short',
 });
+const generatedAtIso = generatedAt.toISOString();
+
+const seoTitle = 'Ranking Mexa de Videojuegos en Kickstarter';
+const seoDescription = 'Ranking Mexa de Videojuegos en Kickstarter: proyectos y estudios mexicanos con mayor recaudacion.';
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const ogImageUrl = new URL('/favicon.svg', Astro.site).toString();
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: seoTitle,
+  description: seoDescription,
+  inLanguage: 'es-MX',
+  url: canonicalUrl,
+  dateModified: generatedAtIso,
+  about: {
+    '@type': 'VideoGame',
+    genre: 'Videojuegos',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Kickstarter Mexa Ranking',
+    url: new URL('/kickstarter-mexa-ranking/', Astro.site).toString(),
+  },
+};
 ---
 
-<html lang="es">
+<html lang="es-MX">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="description" content="Ranking Mexa de Videojuegos en Kickstarter: proyectos y estudios mexicanos con mayor recaudación." />
-    <title>Ranking Mexa de Videojuegos en Kickstarter</title>
+    <meta name="description" content={seoDescription} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:title" content={seoTitle} />
+    <meta property="og:description" content={seoDescription} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={seoTitle} />
+    <meta name="twitter:description" content={seoDescription} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <title>{seoTitle}</title>
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
     <script is:inline>
       (function () {
         const stored = localStorage.getItem('theme');
@@ -57,9 +98,9 @@ const formattedDate = generatedAt.toLocaleDateString('es-MX', {
     <!-- Header -->
     <header class="site-header">
       <div class="container site-header__inner">
-        <span class="site-header__title">
+        <h1 class="site-header__title">
           Ranking <span>Mexa de Videojuegos</span> en Kickstarter
-        </span>
+        </h1>
         <div style="display:flex;align-items:center;gap:1rem;">
           <span class="site-header__meta">Actualizado: {formattedDate}</span>
           <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">🌙</button>
