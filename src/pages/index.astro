@@ -43,8 +43,8 @@ const formattedDate = generatedAt.toLocaleDateString('es-MX', {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="description" content="Ranking de proyectos y estudios mexicanos con mayor recaudación en Kickstarter (Video Games)." />
-    <title>Kickstarter Mexa Ranking</title>
+    <meta name="description" content="Ranking Mexa de Videojuegos en Kickstarter: proyectos y estudios mexicanos con mayor recaudación." />
+    <title>Ranking Mexa de Videojuegos en Kickstarter</title>
     <script is:inline>
       (function () {
         const stored = localStorage.getItem('theme');
@@ -58,11 +58,11 @@ const formattedDate = generatedAt.toLocaleDateString('es-MX', {
     <header class="site-header">
       <div class="container site-header__inner">
         <span class="site-header__title">
-          Kickstarter <span>Mexa</span> Ranking
+          Ranking <span>Mexa de Videojuegos</span> en Kickstarter
         </span>
         <div style="display:flex;align-items:center;gap:1rem;">
           <span class="site-header__meta">Actualizado: {formattedDate}</span>
-          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+          <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">🌙</button>
         </div>
       </div>
     </header>
@@ -71,15 +71,15 @@ const formattedDate = generatedAt.toLocaleDateString('es-MX', {
     <main>
       <div class="container">
         <nav class="section-nav" aria-label="Secciones">
-          <a href="#proyectos" class="section-nav__item section-nav__item--active">🎮 Top Proyectos</a>
-          <a href="#creadores" class="section-nav__item">🏆 Top Creadores</a>
+          <a href="#proyectos" class="section-nav__item section-nav__item--active">🎮 Principales Videojuegos Mexicanos</a>
+          <a href="#creadores" class="section-nav__item">🏆 Principales Estudios/Creadores Mexicanos</a>
         </nav>
 
         <!-- Top Proyectos -->
         <section id="proyectos" class="ranking-section">
           <div class="ranking-section__header">
-            <h2 class="ranking-section__title">Top Proyectos</h2>
-            <span class="ranking-section__count">{projectRows.length} proyectos · Video Games · MX</span>
+            <h2 class="ranking-section__title">Principales Videojuegos Mexicanos</h2>
+            <span class="ranking-section__count">{projectRows.length} videojuegos mexicanos · categoría Videojuegos de Kickstarter</span>
           </div>
           {projectRows.length > 0 ? (
             <RankingTable kind="projects" projectRows={projectRows} />
@@ -93,8 +93,8 @@ const formattedDate = generatedAt.toLocaleDateString('es-MX', {
         <!-- Top Creadores -->
         <section id="creadores" class="ranking-section">
           <div class="ranking-section__header">
-            <h2 class="ranking-section__title">Top Creadores / Estudios</h2>
-            <span class="ranking-section__count">{creatorRows.length} creadores · recaudación acumulada</span>
+            <h2 class="ranking-section__title">Principales Creadores / Estudios Mexicanos</h2>
+            <span class="ranking-section__count">{creatorRows.length} creadores/estudios mexicanos · recaudación acumulada</span>
           </div>
           {creatorRows.length > 0 ? (
             <RankingTable kind="creators" creatorRows={creatorRows} />
@@ -111,11 +111,11 @@ const formattedDate = generatedAt.toLocaleDateString('es-MX', {
     <footer class="site-footer">
       <div class="container site-footer__inner">
         <span>
-          Datos: proyectos <strong>exitosos</strong> de Video Games con creadores de <strong>MX</strong> ·
+          Datos: proyectos <strong>exitosos</strong> de videojuegos en Kickstarter con creadores de <strong>México (MX)</strong> ·
           Fuente: <a href="https://www.kickstarter.com" target="_blank" rel="noopener noreferrer">Kickstarter</a>
         </span>
         <span>
-          Powered by <a href="https://github.com/edo0xff/kickstarter-mexa-statistics" target="_blank" rel="noopener noreferrer">kickstarter-mexa-statistics</a>
+          Impulsado por <a href="https://github.com/edo0xff/kickstarter-mexa-statistics" target="_blank" rel="noopener noreferrer">kickstarter-mexa-statistics</a>
         </span>
       </div>
     </footer>
