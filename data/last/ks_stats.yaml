@@ -1,0 +1,15 @@
+metadata:
+  generated_at: '2026-01-01T00:00:00+00:00'
+  country_code: MX
+  category: Video Games
+  project_state: successful
+summary:
+  total_records: 0
+  scoped_records: 0
+  top_n: 20
+fx:
+  base: USD
+  rates: {}
+rankings:
+  top_projects: []
+  top_creators: []

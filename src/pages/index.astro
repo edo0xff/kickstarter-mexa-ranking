@@ -1,0 +1,138 @@
+---
+import '../styles/global.css';
+import RankingTable from '../components/RankingTable.astro';
+import type { ProjectRow, CreatorRow } from '../components/RankingTable.astro';
+import { loadCurrentData, loadLastData } from '../lib/loadData';
+import { buildRankMap, computeTrend } from '../lib/trend';
+
+const current = loadCurrentData();
+const last = loadLastData();
+
+// Get MXN exchange rate (fallback to 17.5 if not available)
+const mxnRate = current.fx.rates['MXN'] || 17.5;
+
+// Build last-rank maps for comparison
+const lastProjectMap = buildRankMap(last.rankings.top_projects, (p) => p.name);
+const lastCreatorMap = buildRankMap(last.rankings.top_creators, (c) => c.creator);
+
+// Enrich projects with rank + trend + MXN conversion
+const projectRows: ProjectRow[] = current.rankings.top_projects.map((p, idx) => ({
+  rank: idx + 1,
+  ...p,
+  mxn: p.currency === 'MXN' ? p.pledged_original : p.usd * mxnRate,
+  trend: computeTrend(idx + 1, p.name, lastProjectMap),
+}));
+
+// Enrich creators with rank + trend
+const creatorRows: CreatorRow[] = current.rankings.top_creators.map((c, idx) => ({
+  rank: idx + 1,
+  ...c,
+  trend: computeTrend(idx + 1, c.creator, lastCreatorMap),
+}));
+
+const generatedAt = new Date(current.metadata.generated_at);
+const formattedDate = generatedAt.toLocaleDateString('es-MX', {
+  year: 'numeric', month: 'long', day: 'numeric',
+  hour: '2-digit', minute: '2-digit', timeZone: 'UTC', timeZoneName: 'short',
+});
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Ranking de proyectos y estudios mexicanos con mayor recaudación en Kickstarter (Video Games)." />
+    <title>Kickstarter Mexa Ranking</title>
+    <script is:inline>
+      (function () {
+        const stored = localStorage.getItem('theme');
+        const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', stored || preferred);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <span class="site-header__title">
+          Kickstarter <span>Mexa</span> Ranking
+        </span>
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <span class="site-header__meta">Actualizado: {formattedDate}</span>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div class="container">
+        <nav class="section-nav" aria-label="Secciones">
+          <a href="#proyectos" class="section-nav__item section-nav__item--active">🎮 Top Proyectos</a>
+          <a href="#creadores" class="section-nav__item">🏆 Top Creadores</a>
+        </nav>
+
+        <!-- Top Proyectos -->
+        <section id="proyectos" class="ranking-section">
+          <div class="ranking-section__header">
+            <h2 class="ranking-section__title">Top Proyectos</h2>
+            <span class="ranking-section__count">{projectRows.length} proyectos · Video Games · MX</span>
+          </div>
+          {projectRows.length > 0 ? (
+            <RankingTable kind="projects" projectRows={projectRows} />
+          ) : (
+            <div class="empty-state">
+              Sin datos aún. Ejecuta el scraper para poblar el ranking.
+            </div>
+          )}
+        </section>
+
+        <!-- Top Creadores -->
+        <section id="creadores" class="ranking-section">
+          <div class="ranking-section__header">
+            <h2 class="ranking-section__title">Top Creadores / Estudios</h2>
+            <span class="ranking-section__count">{creatorRows.length} creadores · recaudación acumulada</span>
+          </div>
+          {creatorRows.length > 0 ? (
+            <RankingTable kind="creators" creatorRows={creatorRows} />
+          ) : (
+            <div class="empty-state">
+              Sin datos aún. Ejecuta el scraper para poblar el ranking.
+            </div>
+          )}
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <span>
+          Datos: proyectos <strong>exitosos</strong> de Video Games con creadores de <strong>MX</strong> ·
+          Fuente: <a href="https://www.kickstarter.com" target="_blank" rel="noopener noreferrer">Kickstarter</a>
+        </span>
+        <span>
+          Powered by <a href="https://github.com/edo0xff/kickstarter-mexa-statistics" target="_blank" rel="noopener noreferrer">kickstarter-mexa-statistics</a>
+        </span>
+      </div>
+    </footer>
+
+    <!-- Theme toggle script -->
+    <script>
+      const btn = document.getElementById('themeToggle')!;
+      function applyTheme(theme: string) {
+        document.documentElement.setAttribute('data-theme', theme);
+        btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        localStorage.setItem('theme', theme);
+      }
+      applyTheme(document.documentElement.getAttribute('data-theme') || 'light');
+      btn.addEventListener('click', () => {
+        const cur = document.documentElement.getAttribute('data-theme');
+        applyTheme(cur === 'dark' ? 'light' : 'dark');
+      });
+    </script>
+  </body>
+</html>

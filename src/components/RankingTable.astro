@@ -1,0 +1,155 @@
+---
+import TrendBadge from './TrendBadge.astro';
+import type { TrendResult } from '../lib/trend';
+
+export interface ProjectRow {
+  rank: number;
+  name: string;
+  creator: string;
+  location: string;
+  currency: string;
+  pledged_original: number;
+  usd: number;
+  mxn: number;
+  url: string;
+  project_image_url: string;
+  trend: TrendResult;
+}
+
+export interface CreatorRow {
+  rank: number;
+  creator: string;
+  projects: number;
+  usd_total: number;
+  mxn_total: number;
+  creator_url: string;
+  creator_photo_url: string;
+  trend: TrendResult;
+}
+
+interface Props {
+  kind: 'projects' | 'creators';
+  projectRows?: ProjectRow[];
+  creatorRows?: CreatorRow[];
+}
+
+const { kind, projectRows = [], creatorRows = [] } = Astro.props;
+
+function formatUSD(val: number): string {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    maximumFractionDigits: 0,
+  }).format(val);
+}
+
+function formatMXN(val: number): string {
+  return new Intl.NumberFormat('es-MX', {
+    style: 'currency',
+    currency: 'MXN',
+    maximumFractionDigits: 0,
+  }).format(val);
+}
+---
+
+{kind === 'projects' && (
+  <div class="table-wrapper">
+    <table class="ranking-table">
+      <thead>
+        <tr>
+          <th class="col-rank">#</th>
+          <th class="col-trend"></th>
+          <th class="col-img"></th>
+          <th class="col-name">Proyecto</th>
+          <th class="col-creator">Creador</th>
+          <th class="col-location">Ubicación</th>
+          <th class="col-raised">Recaudado MXN</th>
+          <th class="col-usd">USD</th>
+          <th class="col-link"></th>
+        </tr>
+      </thead>
+      <tbody>
+        {projectRows.map((row) => (
+          <tr class="ranking-table__row" data-href={row.url}>
+            <td class="col-rank">{row.rank}</td>
+            <td class="col-trend"><TrendBadge trend={row.trend} /></td>
+            <td class="col-img">
+              {row.project_image_url ? (
+                <img
+                  src={row.project_image_url}
+                  alt={row.name}
+                  width="48"
+                  height="36"
+                  loading="lazy"
+                />
+              ) : (
+                <div class="img-placeholder" aria-hidden="true"></div>
+              )}
+            </td>
+            <td class="col-name">{row.name}</td>
+            <td class="col-creator">{row.creator}</td>
+            <td class="col-location">{row.location}</td>
+            <td class="col-raised">MXN {formatMXN(row.mxn)}</td>
+            <td class="col-usd">USD {formatUSD(row.usd)}</td>
+            <td class="col-link" aria-label={`Ver ${row.name} en Kickstarter`}>↗</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+)}
+
+{kind === 'creators' && (
+  <div class="table-wrapper">
+    <table class="ranking-table">
+      <thead>
+        <tr>
+          <th class="col-rank">#</th>
+          <th class="col-trend"></th>
+          <th class="col-img"></th>
+          <th class="col-name">Creador / Estudio</th>
+          <th class="col-projects">Proyectos</th>
+          <th class="col-usd">Total USD</th>
+          <th class="col-mxn">Total MXN</th>
+          <th class="col-link"></th>
+        </tr>
+      </thead>
+      <tbody>
+        {creatorRows.map((row) => (
+          <tr class="ranking-table__row" data-href={row.creator_url}>
+            <td class="col-rank">{row.rank}</td>
+            <td class="col-trend"><TrendBadge trend={row.trend} /></td>
+            <td class="col-img">
+              {row.creator_photo_url ? (
+                <img
+                  src={row.creator_photo_url}
+                  alt={row.creator}
+                  width="36"
+                  height="36"
+                  loading="lazy"
+                  class="creator-avatar"
+                />
+              ) : (
+                <div class="img-placeholder img-placeholder--avatar" aria-hidden="true"></div>
+              )}
+            </td>
+            <td class="col-name">{row.creator}</td>
+            <td class="col-projects">{row.projects}</td>
+            <td class="col-usd">{formatUSD(row.usd_total)}</td>
+            <td class="col-mxn">{formatMXN(row.mxn_total)}</td>
+            <td class="col-link" aria-label={`Ver perfil de ${row.creator}`}>{row.creator_url ? '↗' : ''}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+)}
+
+<script>
+  document.addEventListener('click', (e) => {
+    const row = (e.target as HTMLElement).closest('tr.ranking-table__row') as HTMLTableRowElement | null;
+    if (row && row.dataset.href) {
+      window.open(row.dataset.href, '_blank');
+    }
+  });
+</script>

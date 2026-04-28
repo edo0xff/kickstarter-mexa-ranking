@@ -1,0 +1,26 @@
+---
+import type { TrendResult } from '../lib/trend';
+
+interface Props {
+  trend: TrendResult;
+}
+
+const { trend } = Astro.props;
+---
+
+{trend.direction === 'up' && (
+  <span class="trend trend--up" title={`+${trend.delta} positions`}>
+    ▲ <span class="trend__delta">{trend.delta}</span>
+  </span>
+)}
+{trend.direction === 'down' && (
+  <span class="trend trend--down" title={`${trend.delta} positions`}>
+    ▼ <span class="trend__delta">{Math.abs(trend.delta)}</span>
+  </span>
+)}
+{trend.direction === 'same' && (
+  <span class="trend trend--same" title="No change">—</span>
+)}
+{trend.direction === 'new' && (
+  <span class="trend trend--new" title="New entry">✦</span>
+)}

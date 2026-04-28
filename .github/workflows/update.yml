@@ -1,0 +1,86 @@
+name: Update Rankings & Deploy
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── Python / Scraper ──────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install ks-stats scraper
+        run: pip install "git+https://github.com/edo0xff/kickstarter-mexa-statistics.git"
+
+      # ── Data rotation ─────────────────────────────────────────
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Rotate data (current → last)
+        run: node scripts/rotate-data.mjs
+
+      # ── Scraping ──────────────────────────────────────────────
+      - name: Run scraper
+        run: >
+          ks-stats run
+          --output-format yaml
+          --output-file data/current/ks_stats.yaml
+          --top-n 50
+          --no-show-chart
+          --delay-ms 250
+
+      # ── Commit updated YAML ───────────────────────────────────
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/current/ks_stats.yaml data/last/ks_stats.yaml
+          git diff --cached --quiet || git commit -m "chore: update rankings data [skip ci]"
+          git push
+
+      # ── Astro build ───────────────────────────────────────────
+      - name: Build Astro site
+        run: npm run build:static
+
+      # ── Deploy to GitHub Pages ────────────────────────────────
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,22 @@
+{
+  "name": "kickstarter-mexa-ranking",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build:static": "astro build",
+    "build": "node scripts/rotate-data.mjs && ks-stats run --output-format yaml --output-file data/current/ks_stats.yaml && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^6.1.10",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9"
+  }
+}
