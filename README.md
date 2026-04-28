@@ -165,7 +165,14 @@ rankings:
       currency: USD
       pledged_original: 50000
       usd: 50000
+      mxn: 875000
       url: "https://..."
+      launched_at_iso: "2026-04-01T12:00:00Z"
+      launched_at_epoch: 1775044800
+      deadline_iso: "2026-05-01T12:00:00Z"
+      deadline_epoch: 1777636800
+      updated_at_iso: null
+      updated_at_epoch: null
       project_image_url: "https://..."
   
   top_creators:

@@ -210,6 +210,12 @@ main { flex: 1; padding: 2rem 0 3rem; }
 .col-name { font-weight: 600; min-width: 10rem; }
 .col-creator { color: var(--text-2); min-width: 8rem; }
 .col-location { color: var(--text-3); white-space: nowrap; }
+.col-date {
+  color: var(--text-2);
+  white-space: nowrap;
+  min-width: 7rem;
+  font-variant-numeric: tabular-nums;
+}
 .col-raised { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .col-usd { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; color: var(--accent); }
 .col-mxn { font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--text-2); }

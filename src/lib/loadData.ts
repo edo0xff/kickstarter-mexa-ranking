@@ -23,7 +23,14 @@ export interface ProjectEntry {
   currency: string;
   pledged_original: number;
   usd: number;
+  mxn: number;
   url: string;
+  launched_at_iso: string;
+  launched_at_epoch: number;
+  deadline_iso: string;
+  deadline_epoch: number;
+  updated_at_iso: string | null;
+  updated_at_epoch: number | null;
   project_image_url: string;
 }
 

@@ -7,6 +7,8 @@ export interface ProjectRow {
   name: string;
   creator: string;
   location: string;
+  launched_at_iso: string;
+  deadline_iso: string;
   currency: string;
   pledged_original: number;
   usd: number;
@@ -50,6 +52,35 @@ function formatMXN(val: number): string {
     maximumFractionDigits: 0,
   }).format(val);
 }
+
+function parseIsoDate(iso: string): Date | null {
+  const parsed = new Date(iso);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function formatCampaignDate(iso: string): string {
+  const date = parseIsoDate(iso);
+  if (!date) return 'N/D';
+
+  return new Intl.DateTimeFormat('es-MX', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(date);
+}
+
+function campaignDurationTooltip(launchedIso: string, deadlineIso: string): string {
+  const launched = parseIsoDate(launchedIso);
+  const deadline = parseIsoDate(deadlineIso);
+  if (!launched || !deadline) return '';
+
+  const diffMs = deadline.getTime() - launched.getTime();
+  if (diffMs < 0) return '';
+
+  const days = Math.round(diffMs / (1000 * 60 * 60 * 24));
+  return `Duracion: ${days} dias`;
+}
 ---
 
 {kind === 'projects' && (
@@ -63,37 +94,47 @@ function formatMXN(val: number): string {
           <th class="col-name">Proyecto</th>
           <th class="col-creator">Creador</th>
           <th class="col-location">Ubicación</th>
+          <th class="col-date">Inicio</th>
+          <th class="col-date">Fin</th>
           <th class="col-raised">Recaudado MXN</th>
           <th class="col-usd">USD</th>
           <th class="col-link"></th>
         </tr>
       </thead>
       <tbody>
-        {projectRows.map((row) => (
-          <tr class="ranking-table__row" data-href={row.url}>
-            <td class="col-rank">{row.rank}</td>
-            <td class="col-trend"><TrendBadge trend={row.trend} /></td>
-            <td class="col-img">
-              {row.project_image_url ? (
-                <img
-                  src={row.project_image_url}
-                  alt={row.name}
-                  width="48"
-                  height="36"
-                  loading="lazy"
-                />
-              ) : (
-                <div class="img-placeholder" aria-hidden="true"></div>
-              )}
-            </td>
-            <td class="col-name">{row.name}</td>
-            <td class="col-creator">{row.creator}</td>
-            <td class="col-location">{row.location}</td>
-            <td class="col-raised">MXN {formatMXN(row.mxn)}</td>
-            <td class="col-usd">USD {formatUSD(row.usd)}</td>
-            <td class="col-link" aria-label={`Ver ${row.name} en Kickstarter`}>↗</td>
-          </tr>
-        ))}
+        {projectRows.map((row) => {
+          const startDate = formatCampaignDate(row.launched_at_iso);
+          const endDate = formatCampaignDate(row.deadline_iso);
+          const durationText = campaignDurationTooltip(row.launched_at_iso, row.deadline_iso);
+
+          return (
+            <tr class="ranking-table__row" data-href={row.url}>
+              <td class="col-rank">{row.rank}</td>
+              <td class="col-trend"><TrendBadge trend={row.trend} /></td>
+              <td class="col-img">
+                {row.project_image_url ? (
+                  <img
+                    src={row.project_image_url}
+                    alt={row.name}
+                    width="48"
+                    height="36"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div class="img-placeholder" aria-hidden="true"></div>
+                )}
+              </td>
+              <td class="col-name">{row.name}</td>
+              <td class="col-creator">{row.creator}</td>
+              <td class="col-location">{row.location}</td>
+              <td class="col-date" title={durationText}>{startDate}</td>
+              <td class="col-date" title={durationText}>{endDate}</td>
+              <td class="col-raised">MXN {formatMXN(row.mxn)}</td>
+              <td class="col-usd">USD {formatUSD(row.usd)}</td>
+              <td class="col-link" aria-label={`Ver ${row.name} en Kickstarter`}>↗</td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   </div>
