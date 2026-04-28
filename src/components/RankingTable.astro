@@ -109,8 +109,8 @@ function formatMXN(val: number): string {
           <th class="col-img"></th>
           <th class="col-name">Creador / Estudio</th>
           <th class="col-projects">Proyectos</th>
-          <th class="col-usd">Total en USD</th>
           <th class="col-mxn">Total en MXN</th>
+          <th class="col-usd">Total en USD</th>
           <th class="col-link"></th>
         </tr>
       </thead>
@@ -135,8 +135,8 @@ function formatMXN(val: number): string {
             </td>
             <td class="col-name">{row.creator}</td>
             <td class="col-projects">{row.projects}</td>
-            <td class="col-usd">{formatUSD(row.usd_total)}</td>
-            <td class="col-mxn">{formatMXN(row.mxn_total)}</td>
+            <td class="col-mxn">MXN {formatMXN(row.mxn_total)}</td>
+            <td class="col-usd">USD {formatUSD(row.usd_total)}</td>
             <td class="col-link" aria-label={`Ver perfil de ${row.creator}`}>{row.creator_url ? '↗' : ''}</td>
           </tr>
         ))}
