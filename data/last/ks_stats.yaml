@@ -1,5 +1,5 @@
 metadata:
-  generated_at: '2026-04-28T21:26:32.429143+00:00'
+  generated_at: '2026-04-28T21:58:06.321404+00:00'
   country_code: MX
   category: Video Games
   project_state: successful
@@ -187,6 +187,12 @@ rankings:
     usd: 634178.6693188302
     mxn: 11069790.54
     url: https://www.kickstarter.com/projects/halberdstudios/mariachi-legends-a-combat-oriented-metroidvania
+    launched_at_iso: '2023-11-07T18:17:18Z'
+    launched_at_epoch: 1699381038
+    deadline_iso: '2023-12-07T18:17:18Z'
+    deadline_epoch: 1701973038
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/042/904/173/999e94e433f9fe2ea55d204a0e0b38fd_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1698802525&width=272&sig=FNUW6hzjZqCkdyTNpz2rRuD%2Fo%2BIGRaNKN2t6LqsCC5U%3D
   - name: Heart Forth, Alicia
     creator: Alonso Martin
@@ -197,6 +203,12 @@ rankings:
     usd: 232365.18
     mxn: 4037569.0025335196
     url: https://www.kickstarter.com/projects/alonsomartin/heart-forth-alicia
+    launched_at_iso: '2014-04-16T04:17:53Z'
+    launched_at_epoch: 1397621873
+    deadline_iso: '2014-05-16T04:17:53Z'
+    deadline_epoch: 1400213873
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/011/676/599/07ef12af58d703c3337f6a2c2ebd00e9_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1463686648&width=272&sig=HrQzfhPfayAfr%2FH9wolMr7ZKs%2FuGi0MDdHRkwcUIk2A%3D
   - name: Lonesome Village | Cute puzzle-filled life simulator
     creator: Ogre Pixel
@@ -207,6 +219,12 @@ rankings:
     usd: 101788.0135616785
     mxn: 2149219.73
     url: https://www.kickstarter.com/projects/ogrepixel/lonesome-village
+    launched_at_iso: '2020-09-17T15:58:04Z'
+    launched_at_epoch: 1600358284
+    deadline_iso: '2020-10-17T15:58:04Z'
+    deadline_epoch: 1602950284
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/031/037/261/1bf9937ec1060b1c43d5afa1fa8c483d_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1602878387&width=272&sig=5rvG2aNtCpPyIVPvKEKZ4%2B%2BvXDWYxyAMABErhvUhgvQ%3D
   - name: 9 Years of Shadows
     creator: HALBERD STUDIOS
@@ -217,6 +235,12 @@ rankings:
     usd: 80383.213373428
     mxn: 1988905.66
     url: https://www.kickstarter.com/projects/halberdstudios/9-years-of-shadows
+    launched_at_iso: '2020-03-24T18:40:10Z'
+    launched_at_epoch: 1585075210
+    deadline_iso: '2020-04-30T18:40:10Z'
+    deadline_epoch: 1588272010
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/028/611/737/16fbddaa4bdbb3dd73b79ed083448b9c_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1585852335&width=272&sig=hsEdZPuzzgBWPme4%2BpTLcc0mAFfbTlTv%2BqnS59lRKz8%3D
   - name: 'Glory Hunters: A unique Game Boy action-adventure RPG!'
     creator: César Arminio
@@ -227,6 +251,12 @@ rankings:
     usd: 67109.972553972
     mxn: 1344688.2
     url: https://www.kickstarter.com/projects/98220550/glory-hunters-a-unique-game-boy-action-adventure-rpg
+    launched_at_iso: '2022-04-10T16:59:46Z'
+    launched_at_epoch: 1649609986
+    deadline_iso: '2022-05-25T16:59:46Z'
+    deadline_epoch: 1653497986
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/037/123/463/85149c033350abcd95dad31f858d7917_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1651120909&width=272&sig=zu2uqj64%2FJeCpQvK5cgF1uWePQqEebqLI0nVW6oeAX8%3D
   - name: A Tiny Sticker Tale | Relaxing tiny adventure about stickers
     creator: Ogre Pixel
@@ -237,6 +267,12 @@ rankings:
     usd: 45033.012592016
     mxn: 786080.8
     url: https://www.kickstarter.com/projects/ogrepixel/a-tiny-sticker-tale
+    launched_at_iso: '2023-06-07T15:51:16Z'
+    launched_at_epoch: 1686153076
+    deadline_iso: '2023-07-07T15:51:16Z'
+    deadline_epoch: 1688745076
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/041/527/280/e3055d9248aefceedf35a163fe52d0a0_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1688653159&width=272&sig=ZSc84RVh5i31JDHKEJPslnfDNGUJ1vK4ZUJkVO6uyGk%3D
   - name: Cosmo Knight ZiON
     creator: Zeichi Games
@@ -247,6 +283,12 @@ rankings:
     usd: 32948.42285793
     mxn: 546661.0
     url: https://www.kickstarter.com/projects/cosmoknightzion/cosmo-knight-zion
+    launched_at_iso: '2024-04-06T06:18:33Z'
+    launched_at_epoch: 1712384313
+    deadline_iso: '2024-06-04T10:11:00Z'
+    deadline_epoch: 1717495860
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/045/267/164/e49f21b0596a3f57978ea14a62e9f1c8_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1717453190&width=272&sig=%2BWlFRV%2FuuoMFleWEsznpe7d%2BU0dtTO0pQzoH3r3iVmM%3D
   - name: Dungeons and Passion
     creator: DMQuetzalli
@@ -257,6 +299,12 @@ rankings:
     usd: 25621.023874446
     mxn: 500203.8
     url: https://www.kickstarter.com/projects/dmquetzalli/dungeons-and-passion
+    launched_at_iso: '2022-06-07T23:41:40Z'
+    launched_at_epoch: 1654645300
+    deadline_iso: '2022-07-07T23:41:40Z'
+    deadline_epoch: 1657237300
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/037/408/931/008a75d5938e9d01b0ef488af8fcb0ec_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1653345084&width=272&sig=4wABJ4hHH3ow4XfgExmPrtHwATlW3ff3h1eBxqdnBD4%3D
   - name: Eagle Knight Paradox
     creator: Playstorm Studios
@@ -267,6 +315,12 @@ rankings:
     usd: 19687.494619792
     mxn: 419646.8
     url: https://www.kickstarter.com/projects/playstormstudios/eagle-knight-paradox
+    launched_at_iso: '2020-10-14T16:55:02Z'
+    launched_at_epoch: 1602694502
+    deadline_iso: '2020-11-13T17:55:02Z'
+    deadline_epoch: 1605290102
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/030/995/880/d5ac932d63b37b85144f4cf47342faf7_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1602645905&width=272&sig=ijhfuDyavLMTq7REro19%2ByU9KW3yVnJUqoZafdFHe94%3D
   - name: 'Deer Crusade: A Hand Crafted Maya Inspired 2D Platformer'
     creator: Black Coffee Studio
@@ -277,6 +331,12 @@ rankings:
     usd: 24327.617407016
     mxn: 419130.8
     url: https://www.kickstarter.com/projects/jnrcrdpssrz/deer-crusade-a-hand-crafted-maya-inspired-2d-platformer
+    launched_at_iso: '2023-11-21T03:49:17Z'
+    launched_at_epoch: 1700538557
+    deadline_iso: '2024-01-01T05:59:00Z'
+    deadline_epoch: 1704088740
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/043/433/386/dfc0a4f53fed406a035989390073e283_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1703098305&width=272&sig=x3P%2Fy0u5WNiIVXnpN13kEHsqvZ%2BZAcRLXJaD0Y90Zsw%3D
   - name: Rain In The Abyss (A Beauty PixelArt Horror/Metroidvania)
     creator: José Alfredo Ramírez Muñoz
@@ -287,6 +347,12 @@ rankings:
     usd: 23911.850257458
     mxn: 411349.8
     url: https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania
+    launched_at_iso: '2023-09-23T07:39:37Z'
+    launched_at_epoch: 1695454777
+    deadline_iso: '2023-10-23T07:39:37Z'
+    deadline_epoch: 1698046777
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/042/787/491/446b3c63d3dc10f5a404178ede6dd3da_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1698004132&width=272&sig=p%2Bda9Lnc0a1Hdk6WgUSUZSnNpgPgDmUd5PBFAXgXGyU%3D
   - name: Dreamshot Fantasia
     creator: Miracle
@@ -297,6 +363,12 @@ rankings:
     usd: 19062.0
     mxn: 331220.62576799997
     url: https://www.kickstarter.com/projects/miracleppg/dreamshot-fantasia
+    launched_at_iso: '2023-12-01T17:59:50Z'
+    launched_at_epoch: 1701453590
+    deadline_iso: '2023-12-31T17:59:50Z'
+    deadline_epoch: 1704045590
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/043/158/214/48336813c34111780649cf8270784b62_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1700691591&width=272&sig=F17FtbCVIXVDH65H68B8J6jnOvG9HSNTODLR0JQqQew%3D
   - name: Vocaless - Rhythm Platformer
     creator: SleP16
@@ -307,6 +379,12 @@ rankings:
     usd: 15888.55062638
     mxn: 322646.0
     url: https://www.kickstarter.com/projects/sleepy16/vocaless-rhythm-platformer
+    launched_at_iso: '2025-04-14T17:30:15Z'
+    launched_at_epoch: 1744651815
+    deadline_iso: '2025-05-14T17:30:15Z'
+    deadline_epoch: 1747243815
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/048/968/304/0827d76c5dc8bd198ad998fd3dad79eb_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1745101195&width=272&sig=pg2YU6%2BBt9NGFR5cXDghNfcrlPLkzyXBpEzoaR6c4Zs%3D
   - name: Another Crusade
     creator: DragonVein Studios
@@ -317,6 +395,12 @@ rankings:
     usd: 13532.074225972
     mxn: 301670.8
     url: https://www.kickstarter.com/projects/dragonvein/another-crusade
+    launched_at_iso: '2020-07-07T16:59:48Z'
+    launched_at_epoch: 1594141188
+    deadline_iso: '2020-08-21T16:59:48Z'
+    deadline_epoch: 1598029188
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/030/189/680/fd48f6976ca9ef0b450c4ff9c26e0ca2_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1597364358&width=272&sig=kZJBnt87iEbUOIDDk80wkwnOMw7iGdCHEAYluiJWgH0%3D
   - name: Broken Reality
     creator: Dynamic Media Triad
@@ -327,6 +411,12 @@ rankings:
     usd: 14681.01
     mxn: 255096.70124364
     url: https://www.kickstarter.com/projects/445840357/broken-reality-0
+    launched_at_iso: '2017-12-06T15:45:06Z'
+    launched_at_epoch: 1512575106
+    deadline_iso: '2018-01-05T15:45:06Z'
+    deadline_epoch: 1515167106
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/019/458/644/e868b6c209d8433d838c58627322345d_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1512155662&width=272&sig=a3owuARrn2018%2FdqXZBVK%2FhPd8emLBWivP7Wf9oainM%3D
   - name: 'Neon City Riders: A Cyberpunk Turf Wars Action Adventure'
     creator: Mecha Studios
@@ -337,6 +427,12 @@ rankings:
     usd: 12412.6841136
     mxn: 225740.0
     url: https://www.kickstarter.com/projects/mechastudios/neon-city-riders-a-cyberpunk-turf-wars-action-adve
+    launched_at_iso: '2017-07-06T16:53:22Z'
+    launched_at_epoch: 1499360002
+    deadline_iso: '2017-08-08T04:00:00Z'
+    deadline_epoch: 1502164800
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/017/314/229/3de6cc04dc64fba4f98ab80c16d0ed3f_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1498768210&width=272&sig=njq6bs%2F%2B%2BFH8yCgbMThTPvO%2F4BL2E8Eaay%2BjBa%2B0ofg%3D
   - name: Pato Box - A full action duck fighting experience
     creator: Bromio
@@ -347,6 +443,12 @@ rankings:
     usd: 10706.823743
     mxn: 210700.0
     url: https://www.kickstarter.com/projects/1548341006/pato-box-a-full-action-duck-fighting-experience
+    launched_at_iso: '2017-03-10T16:39:51Z'
+    launched_at_epoch: 1489163991
+    deadline_iso: '2017-04-09T15:39:51Z'
+    deadline_epoch: 1491752391
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/015/570/191/ee24731e88da3debb6a95ab7b25d318e_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1487739988&width=272&sig=FIEM0lUDCu131TfgmE871v67tewljoiB8jjECsTIkP8%3D
   - name: Overbound 1.1 | Platform Adventures and Multiplayer
     creator: CosmicCatGames
@@ -357,6 +459,12 @@ rankings:
     usd: 11883.3291648
     mxn: 200448.0
     url: https://www.kickstarter.com/projects/cosmiccatgames/overbound-11-platform-adventures-and-multiplayer
+    launched_at_iso: '2024-01-15T04:02:33Z'
+    launched_at_epoch: 1705291353
+    deadline_iso: '2024-01-25T04:02:33Z'
+    deadline_epoch: 1706155353
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/043/542/648/d4b19f16283a32701c7a3fd93d7e9e11_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1704338209&width=272&sig=jo%2BP31kKRWnYvCzWcuqfaYx0QsexRV8RGGCqnQZQN8M%3D
   - name: Lethal Attraction (Adult Videogame)
     creator: Medussa Software
@@ -367,6 +475,12 @@ rankings:
     usd: 8535.613044858
     mxn: 173403.8
     url: https://www.kickstarter.com/projects/medussasoftware/lethal-attraction-adult-videogame
+    launched_at_iso: '2022-01-18T19:44:25Z'
+    launched_at_epoch: 1642535065
+    deadline_iso: '2022-02-22T19:44:25Z'
+    deadline_epoch: 1645559065
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/036/210/654/446b6de1d4e9c9eafdabc03d05d9c1cd_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1643543906&width=272&sig=PiwEmOlpIU%2FBGX4xbxVD9HzNXOoBNBdgXtJnw%2FIlEaE%3D
   - name: 'Delve Into Pawssion: Community Encore!'
     creator: DMQuetzalli
@@ -377,6 +491,12 @@ rankings:
     usd: 7863.90659226
     mxn: 161307.0
     url: https://www.kickstarter.com/projects/dmquetzalli/delve-into-pawssion-community-encore
+    launched_at_iso: '2025-01-18T04:17:13Z'
+    launched_at_epoch: 1737173833
+    deadline_iso: '2025-02-17T04:17:13Z'
+    deadline_epoch: 1739765833
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/047/805/471/8c30be706b09434e891d1bc0bcdd69e7_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1736651618&width=272&sig=9SBq22dA1cTyibTUSzRwWKftctAmSXU0vO%2Faeq3TQXY%3D
   - name: PINCHIMONO THE VIDEOGAME
     creator: Ricardo Lozoya
@@ -387,6 +507,12 @@ rankings:
     usd: 7999.63304184
     mxn: 160248.0
     url: https://www.kickstarter.com/projects/pinchimono/pinchimono-the-videogame
+    launched_at_iso: '2024-11-02T19:32:05Z'
+    launched_at_epoch: 1730575925
+    deadline_iso: '2025-01-01T20:32:05Z'
+    deadline_epoch: 1735763525
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/047/067/602/7e05e1d6817eaf3ae47d28361b31a9f6_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1730163810&width=272&sig=cfVaaLlWbFWxdGsT9VPutr1hjQ2ZhfqWUjLvnvYlEwY%3D
   - name: Witches and Butchers - A Gameboy Color Bullet Hell RPG!
     creator: Lobosandia
@@ -397,6 +523,12 @@ rankings:
     usd: 9315.8778068
     mxn: 154270.0
     url: https://www.kickstarter.com/projects/cuurian/witches-and-butchers-a-gameboy-color-action-rpg
+    launched_at_iso: '2024-04-05T00:17:40Z'
+    launched_at_epoch: 1712276260
+    deadline_iso: '2024-05-05T00:17:40Z'
+    deadline_epoch: 1714868260
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/044/484/087/762c4306a47fd15d0cec1123030cc134_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1711497109&width=272&sig=5JibNlNFTECM5VxE3mPWMf%2BAg%2F0aMgP8PfPcC5lK5KY%3D
   - name: Dark Tales from México. PRELUDE. (Oct. 9 - 31)
     creator: BitAll Force
@@ -407,6 +539,12 @@ rankings:
     usd: 7329.091330944
     mxn: 151696.8
     url: https://www.kickstarter.com/projects/bitallforce/dark-tales-from-mexico-prelude
+    launched_at_iso: '2021-10-09T15:53:19Z'
+    launched_at_epoch: 1633794799
+    deadline_iso: '2021-11-01T01:01:00Z'
+    deadline_epoch: 1635728460
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/035/392/474/d21be362e2fda111f82b8f6b870adc60_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1635438032&width=272&sig=K0CxwIwxmYzODE9kOqK378aeILVhDIED8LYcYWSZ6vA%3D
   - name: The Frozen Kingdom - a sword & sorcery BL visual novel
     creator: ManEaterGames
@@ -417,6 +555,12 @@ rankings:
     usd: 8493.582282738
     mxn: 149063.8
     url: https://www.kickstarter.com/projects/maneatergames/the-frozen-kingdom-a-sword-and-sorcery-bl-visual-novel
+    launched_at_iso: '2023-06-06T12:46:59Z'
+    launched_at_epoch: 1686055619
+    deadline_iso: '2023-07-06T12:46:59Z'
+    deadline_epoch: 1688647619
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/039/682/425/74976a82fd00a4dc09511c0faae3aa46_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1673888679&width=272&sig=MuRBIF01Xbs4mXhVzNdMptOU9h%2Bq%2FEmi4FA0ENqrLNw%3D
   - name: 'The Overlap: Survival cosmic horror 2D sandbox'
     creator: Back Pocket Games
@@ -427,6 +571,12 @@ rankings:
     usd: 6982.726861644
     mxn: 145946.8
     url: https://www.kickstarter.com/projects/back-pocket-games/the-overlap-survival-cosmic-horror-2d-sandbox
+    launched_at_iso: '2021-11-03T15:51:15Z'
+    launched_at_epoch: 1635954675
+    deadline_iso: '2021-12-03T16:51:15Z'
+    deadline_epoch: 1638550275
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/035/699/792/7d6c280c0cd806dc08a149268319fc0c_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1637964067&width=272&sig=BtEdyGLrK8DdW1T1T0d4mD16VRymW3Ls11JwsbDSMt0%3D
   - name: 'VR4E: Immersive learning.'
     creator: La Malinche, Estudio VR
@@ -437,6 +587,12 @@ rankings:
     usd: 7585.507854176
     mxn: 140796.8
     url: https://www.kickstarter.com/projects/1506824399/vr4e-immersive-learning
+    launched_at_iso: '2018-10-02T18:15:16Z'
+    launched_at_epoch: 1538504116
+    deadline_iso: '2018-11-01T18:15:16Z'
+    deadline_epoch: 1541096116
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/022/690/092/6422db031a98768f27cc8bf0fac36f1d_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1538005598&width=272&sig=TbQpKMaAPXObxK2tFMe1IrtNpR9rixFb%2B4kRWjKyc0k%3D
   - name: Uppercute
     creator: Martin Villarreal
@@ -447,6 +603,12 @@ rankings:
     usd: 6622.4686385
     mxn: 131923.0
     url: https://www.kickstarter.com/projects/uppercute/uppercute
+    launched_at_iso: '2025-03-20T16:59:43Z'
+    launched_at_epoch: 1742489983
+    deadline_iso: '2025-04-19T16:59:43Z'
+    deadline_epoch: 1745081983
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/048/572/525/ef2dcc86bb65f4aed6aa80aae3ab667d_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1742320026&width=272&sig=a4pWjOGS2ktdsGCo76Py4Iy6bvCXaePv4X61%2FgAHDOw%3D
   - name: 'Tyr: Chains of Valhalla'
     creator: Ennui Studio
@@ -457,6 +619,12 @@ rankings:
     usd: 6722.519677
     mxn: 127150.0
     url: https://www.kickstarter.com/projects/175133819/tyr-chains-of-valhalla
+    launched_at_iso: '2017-10-16T20:02:23Z'
+    launched_at_epoch: 1508184143
+    deadline_iso: '2017-11-22T21:30:00Z'
+    deadline_epoch: 1511386200
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/018/237/193/2840df62849af6435fbad915178bc157_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1504817117&width=272&sig=%2BwOlUAYpHzmeZ112GYOqZLwHdAnvpX%2Fbt%2FiBmEzQQB0%3D
   - name: 'Pocket Penguin: The Game Boy Cartdrige'
     creator: Pablo Montes (Dog Biscuit)
@@ -467,6 +635,12 @@ rankings:
     usd: 6371.67546704
     mxn: 126159.8
     url: https://www.kickstarter.com/projects/pocketpenguin/pocket-penguin-the-game-boy-cartdrige
+    launched_at_iso: '2022-10-30T21:11:08Z'
+    launched_at_epoch: 1667164268
+    deadline_iso: '2022-11-29T22:11:08Z'
+    deadline_epoch: 1669759868
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/039/245/050/6b1fe63b81a5022aec983c649a790795_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1668607964&width=272&sig=BKQ2PGeug4OTeeyS1mBsCE9l1LySVqXqgjagtSC%2Btvw%3D
   - name: Design Hero
     creator: Akinaba
@@ -477,6 +651,12 @@ rankings:
     usd: 6837.9841421
     mxn: 121255.0
     url: https://www.kickstarter.com/projects/1686713062/design-hero
+    launched_at_iso: '2017-07-26T17:36:52Z'
+    launched_at_epoch: 1501090612
+    deadline_iso: '2017-09-01T17:36:52Z'
+    deadline_epoch: 1504287412
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/017/386/436/c771076100cddccf9c630e80100eaafb_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1501568814&width=272&sig=rcDNmq2UydYfBSqqAsH4b1X5tfiAC%2FEHV%2BrRcAhXp8E%3D
   - name: Rockstar Idol - a NSFW Rhythm game
     creator: Pandita Studio
@@ -487,6 +667,12 @@ rankings:
     usd: 6135.162143772
     mxn: 110178.8
     url: https://www.kickstarter.com/projects/edo0xff/rockstar-idol-relaunch
+    launched_at_iso: '2023-03-10T22:43:12Z'
+    launched_at_epoch: 1678488192
+    deadline_iso: '2023-04-09T21:43:12Z'
+    deadline_epoch: 1681076592
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/040/090/869/a73800306dca15f916c69fe6ec37df83_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1677624320&width=272&sig=h7D3fj76Ki%2B9cn49wI9%2FpTMy8WdzMJSb6Jy4S43dP5w%3D
   - name: Beacon The Awakening
     creator: Sheldrybox Studios
@@ -497,6 +683,12 @@ rankings:
     usd: 6072.35935232
     mxn: 108838.0
     url: https://www.kickstarter.com/projects/sheldrybox/beacon-the-awakening
+    launched_at_iso: '2017-06-20T13:10:45Z'
+    launched_at_epoch: 1497964245
+    deadline_iso: '2017-07-25T13:10:45Z'
+    deadline_epoch: 1500988245
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/017/173/594/f493561b34820b76e39501ca3a6b7d50_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1500243290&width=272&sig=o27yFdj7AL9yBS0FfsFJChck%2F5%2BW%2FtrKx8MLVhgrdOc%3D
   - name: The Best Place [Visual Novel]
     creator: Octopus Games
@@ -507,6 +699,12 @@ rankings:
     usd: 3745.938036892
     mxn: 76958.8
     url: https://www.kickstarter.com/projects/octopusgameserotic/the-best-place-visual-novel
+    launched_at_iso: '2022-07-24T05:42:38Z'
+    launched_at_epoch: 1658641358
+    deadline_iso: '2022-08-23T05:42:38Z'
+    deadline_epoch: 1661233358
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/038/314/380/9932f0e6ca4efe076ffcc51b5d3341d8_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1660794870&width=272&sig=bA9Z3HDVclFlffZlxwOEZh2t8hGXqglBZevoVurykrA%3D
   - name: Elliot Quest
     creator: Ansimuz Games
@@ -517,6 +715,12 @@ rankings:
     usd: 5648.6213455553
     mxn: 75451.22686443845
     url: https://www.kickstarter.com/projects/1571402711/elliot-quest
+    launched_at_iso: '2013-11-01T17:42:52Z'
+    launched_at_epoch: 1383327772
+    deadline_iso: '2013-12-06T18:42:52Z'
+    deadline_epoch: 1386355372
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/011/589/429/1eea3a3be93f2d31939650960a65aff4_original.gif?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1463684894&width=272&sig=728GVn5bEPtYRTFEkvSUEhUv%2BUru%2FSZEv%2BuZ6g%2F65n4%3D
   - name: 'Transformando la tradición: Un videojuego único inspirador'
     creator: mariela santiz sanchez
@@ -527,6 +731,12 @@ rankings:
     usd: 3100.4285004
     mxn: 63720.0
     url: https://www.kickstarter.com/projects/juegosoxchuc/transformando-la-tradicion-un-videojuego-unico-inspirador
+    launched_at_iso: '2025-01-04T22:09:52Z'
+    launched_at_epoch: 1736028592
+    deadline_iso: '2025-01-22T22:09:52Z'
+    deadline_epoch: 1737583792
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/047/731/906/6e8d3928b220c4291acda2d7cb3a30b3_original.jpeg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1736026629&width=272&sig=CPhSlWgm%2BWuDRlH2mRcJz%2BEb2mfZof64IXvUekSwW%2FI%3D
   - name: Porcelana (Relaunch)
     creator: Pandita Studio
@@ -537,6 +747,12 @@ rankings:
     usd: 3174.438219344
     mxn: 63023.8
     url: https://www.kickstarter.com/projects/edo0xff/porcelana-relaunch
+    launched_at_iso: '2021-05-20T18:28:26Z'
+    launched_at_epoch: 1621535306
+    deadline_iso: '2021-06-19T18:28:26Z'
+    deadline_epoch: 1624127306
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/033/580/146/728fbf999213b99814b26050afe62ff6_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1621460757&width=272&sig=N0HrqQ5eLWPbLUmrHxqgLpeIB3Eef7YTWv7pnH5BfSQ%3D
   - name: 'The Book of Tornaluna Cats: A Cozy Game of Care and Healing'
     creator: Pandita Studio
@@ -547,6 +763,12 @@ rankings:
     usd: 3304.35285669
     mxn: 62133.0
     url: https://www.kickstarter.com/projects/edo0xff/the-book-of-tornaluna-cats
+    launched_at_iso: '2025-07-05T03:35:32Z'
+    launched_at_epoch: 1751686532
+    deadline_iso: '2025-08-04T03:35:32Z'
+    deadline_epoch: 1754278532
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/049/785/660/4784c2eb6f52862de80b71446e67d64f_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1750704659&width=272&sig=MlcFRnpDcdKWZxu5sorzntVoDEnj8VVn4M%2Fw0AIfjhs%3D
   - name: Mislight - An Adventure Game With A Small Touch Of Thriller
     creator: Etherlight
@@ -557,6 +779,12 @@ rankings:
     usd: 3120.678000936
     mxn: 60400.8
     url: https://www.kickstarter.com/projects/etherlight/mislight-an-adventure-game-with-a-small-touch-of-thriller
+    launched_at_iso: '2022-11-18T13:01:55Z'
+    launched_at_epoch: 1668776515
+    deadline_iso: '2022-12-18T13:01:55Z'
+    deadline_epoch: 1671368515
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/039/271/643/c1abdca1dc712fd93e821605576473d7_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1668851874&width=272&sig=bsEIYoh3yUoHbNsz8EiJ%2FaCAU8Q%2BmbERw6zWNg0qF4A%3D
   - name: Outsiders - Visual Novel
     creator: Midwest Games
@@ -567,6 +795,12 @@ rankings:
     usd: 3232.411297068
     mxn: 58282.8
     url: https://www.kickstarter.com/projects/midwestgames/outsiders-visual-novel
+    launched_at_iso: '2023-04-04T20:47:38Z'
+    launched_at_epoch: 1680641258
+    deadline_iso: '2023-06-03T20:47:38Z'
+    deadline_epoch: 1685825258
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/039/546/031/67cb5a5fc2dc542affed3cff411bb33b_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1672268909&width=272&sig=GaP2jAYKivFUoDHt665nYDZZHXVIXJeo%2BsLjOX552fc%3D
   - name: Hot Coffe Shop - An anime +18 NSFW game
     creator: Eliza Pecina
@@ -577,6 +811,12 @@ rankings:
     usd: 2905.216894832
     mxn: 56772.8
     url: https://www.kickstarter.com/projects/chocobits/hot-coffe-shop-a-cute-and-erotic-game
+    launched_at_iso: '2022-12-24T21:46:00Z'
+    launched_at_epoch: 1671918360
+    deadline_iso: '2023-01-13T21:46:00Z'
+    deadline_epoch: 1673646360
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/039/516/591/0aa2fcf4a70ab98fe2031184f618573d_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1671749562&width=272&sig=O1FGvUWjqlsUablh%2Fb48EZuJhAh6Q5%2FVxk7%2F%2FJry3HU%3D
   - name: Hollo Buster - A Pacapillar Videogame
     creator: Cathalla
@@ -587,6 +827,12 @@ rankings:
     usd: 3030.0975416
     mxn: 56720.0
     url: https://www.kickstarter.com/projects/887725651/hollo-buster-a-pacapillar-videogame
+    launched_at_iso: '2017-04-03T02:39:26Z'
+    launched_at_epoch: 1491187166
+    deadline_iso: '2017-05-03T02:39:26Z'
+    deadline_epoch: 1493779166
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/016/074/501/bd120851ad34e596910bed2f368fe842_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1491530736&width=272&sig=%2FeIvGPMocMSlVrQUimzlFQrBo5Lc2vbsmYHhK6n2VcE%3D
   - name: Sex City Adult Videogame
     creator: G3ddon Ideas
@@ -597,6 +843,12 @@ rankings:
     usd: 2578.071508908
     mxn: 52393.8
     url: https://www.kickstarter.com/projects/depresionapp/sex-city-adult-videogame
+    launched_at_iso: '2021-08-24T15:52:45Z'
+    launched_at_epoch: 1629820365
+    deadline_iso: '2021-09-28T15:52:45Z'
+    deadline_epoch: 1632844365
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/034/562/811/03813c4e1a4fe92ccfb13ce51cb5c6c3_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1629274712&width=272&sig=wArvAxN1hzXNCMQ6vybHkIuwUzLn%2Fl89vqT9rBqEQbM%3D
   - name: Moons of True Magic - A JRPG game (Chapter 1)
     creator: Filthy Peasants
@@ -607,6 +859,12 @@ rankings:
     usd: 3017.734294608
     mxn: 51763.8
     url: https://www.kickstarter.com/projects/motm/moons-of-true-magic-a-jrpg-game-chapter-1
+    launched_at_iso: '2023-07-11T15:09:39Z'
+    launched_at_epoch: 1689088179
+    deadline_iso: '2023-08-25T15:09:39Z'
+    deadline_epoch: 1692976179
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/041/246/520/5d7bfa47fb432f7b104cab72aa945f68_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1686343775&width=272&sig=icHyLH%2FXzsttyART1brsRcNfri1uCqZbCitEOaqUqG0%3D
   - name: Città nel mare
     creator: Kurusai Studios
@@ -617,6 +875,12 @@ rankings:
     usd: 2492.675687256
     mxn: 50638.8
     url: https://www.kickstarter.com/projects/citta-nel-mare/citta-nel-mare
+    launched_at_iso: '2021-09-30T04:43:42Z'
+    launched_at_epoch: 1632977022
+    deadline_iso: '2021-10-30T04:43:42Z'
+    deadline_epoch: 1635569022
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/035/338/197/11cc89b8538e8de5c1e1bfc1f580510f_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1635052421&width=272&sig=%2BlcDkluw702byxSJtmYqg3LTcvsTEQVmz%2FaZgphDfCY%3D
   - name: Tits and Fantasy
     creator: Luis Eduardo Sanchez Mora
@@ -627,6 +891,12 @@ rankings:
     usd: 2657.807438
     mxn: 48620.0
     url: https://www.kickstarter.com/projects/titsandshadows/tits-and-fantasy
+    launched_at_iso: '2025-12-05T16:23:29Z'
+    launched_at_epoch: 1764951809
+    deadline_iso: '2026-02-03T16:23:29Z'
+    deadline_epoch: 1770135809
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/051/857/117/2a95aeb31d0e5f9e1b2ccae946131cbb_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1764799952&width=272&sig=LTActBrdVm%2FgCZNdkyst0C9J5l1JdhSCCEghZvvoBSQ%3D
   - name: PARADISE LOST - SCI-FI SURVIVAL HORROR GAME
     creator: Juan Pedraza
@@ -637,6 +907,12 @@ rankings:
     usd: 2363.434268
     mxn: 44150.0
     url: https://www.kickstarter.com/projects/jeprdev/paradise-lost-sci-fi-survival-horror-game
+    launched_at_iso: '2017-05-18T20:34:54Z'
+    launched_at_epoch: 1495139694
+    deadline_iso: '2017-06-17T20:34:54Z'
+    deadline_epoch: 1497731694
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/016/728/080/616b93c7e0f712b30df33dbc0afe20bc_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1495953540&width=272&sig=1i6P8g2mhTZoVvt08At6jkEjtqSgReQtPhtnJGApeGo%3D
   - name: The Tale of Nanuk- The Ocean Fairy (Take Two)
     creator: Pablo Montes (Dog Biscuit)
@@ -647,6 +923,12 @@ rankings:
     usd: 2285.70028776
     mxn: 37608.0
     url: https://www.kickstarter.com/projects/pocketpenguin/the-tale-of-nanuk-the-ocean-fairy-take-two
+    launched_at_iso: '2024-04-08T04:40:48Z'
+    launched_at_epoch: 1712551248
+    deadline_iso: '2024-05-08T04:40:48Z'
+    deadline_epoch: 1715143248
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/044/744/510/82ad195fb17d755123bf3cfe64547188_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1713491326&width=272&sig=fNFjtcQa5SJ8N1SqSHFVeJ9zC7upPcxECFnYDugHBXk%3D
   - name: Videojuego AXOL
     creator: Narciso Alejo Gutierrez
@@ -657,6 +939,12 @@ rankings:
     usd: 1891.21262012
     mxn: 36152.8
     url: https://www.kickstarter.com/projects/godshisho-97/videojuego-axol
+    launched_at_iso: '2019-12-13T10:35:17Z'
+    launched_at_epoch: 1576233317
+    deadline_iso: '2020-02-11T10:35:17Z'
+    deadline_epoch: 1581417317
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/027/495/780/28a5809f4d53cac10c9a2ab7c75cfb13_original.jpg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1576231023&width=272&sig=cxZpSCk%2FzwG18SziTC4kEUn8Sl6Uhig2trgI0v4nVdU%3D
   - name: Boney's research on Humans!
     creator: Carlos Makes Games
@@ -667,6 +955,12 @@ rankings:
     usd: 1506.513574802
     mxn: 30383.8
     url: https://www.kickstarter.com/projects/humanstookmn/boneys-research-on-humans
+    launched_at_iso: '2021-04-13T15:59:37Z'
+    launched_at_epoch: 1618329577
+    deadline_iso: '2021-04-29T01:00:00Z'
+    deadline_epoch: 1619658000
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/033/319/028/0be4ab5643a539505a8a166f2c64632f_original.png?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1619645268&width=272&sig=X9oMzF%2Fh6Y4DWGfrJS7edcM8RYR58yuXGwlVZdJhIX8%3D
   - name: 'Shadowbox VR: A rhythm based boxing game'
     creator: Bixelium Entertainment
@@ -677,6 +971,12 @@ rankings:
     usd: 1635.0
     mxn: 28409.70114
     url: https://www.kickstarter.com/projects/shadowboxvr/shadowbox-vr-a-rhythm-based-boxing-game
+    launched_at_iso: '2019-03-11T16:00:24Z'
+    launched_at_epoch: 1552320024
+    deadline_iso: '2019-04-10T16:00:24Z'
+    deadline_epoch: 1554912024
+    updated_at_iso: null
+    updated_at_epoch: null
     project_image_url: https://i.kickstarter.com/assets/024/680/625/ade48f36e0dee26ee93fbe1603172f4a_original.jpeg?anim=false&fit=cover&gravity=auto&height=153&origin=ugc&q=92&v=1554571671&width=272&sig=sZ7xaVhXgx0rhgMoMVxYk6YUVRu33%2FpY4ldU%2BYCmH3g%3D
   top_creators:
   - creator: HALBERD STUDIOS
