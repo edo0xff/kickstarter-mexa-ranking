@@ -1,5 +1,5 @@
 metadata:
-  generated_at: '2026-05-05T08:17:14.712267+00:00'
+  generated_at: '2026-05-07T04:07:17.073870+00:00'
   country_code: MX
   category: Video Games
   project_state: successful
@@ -12,170 +12,170 @@ fx:
   rates:
     USD: 1.0
     AED: 3.6725
-    AFN: 63.962354
-    ALL: 81.751009
-    AMD: 370.756591
+    AFN: 63.941607
+    ALL: 81.396662
+    AMD: 369.708361
     ANG: 1.79
-    AOA: 924.145696
-    ARS: 1398.3143
-    AUD: 1.39417
+    AOA: 924.17786
+    ARS: 1386.2923
+    AUD: 1.381747
     AWG: 1.79
-    AZN: 1.700762
-    BAM: 1.67206
+    AZN: 1.700042
+    BAM: 1.66445
     BBD: 2.0
-    BDT: 122.76244
-    BGN: 1.67206
+    BDT: 122.859148
+    BGN: 1.66445
     BHD: 0.376
-    BIF: 2980.71914
+    BIF: 2981.245884
     BMD: 1.0
-    BND: 1.276391
-    BOB: 6.925617
-    BRL: 4.959799
+    BND: 1.268225
+    BOB: 6.925196
+    BRL: 4.917142
     BSD: 1.0
-    BTN: 95.226909
-    BWP: 13.83376
-    BYN: 2.826552
+    BTN: 94.66807
+    BWP: 13.669701
+    BYN: 2.825998
     BZD: 2.0
-    CAD: 1.361346
-    CDF: 2309.124514
-    CHF: 0.783662
-    CLF: 0.022779
-    CLP: 900.38833
-    CNH: 6.829248
-    CNY: 6.839647
-    COP: 3655.566566
-    CRC: 454.910834
+    CAD: 1.362022
+    CDF: 2316.573107
+    CHF: 0.779245
+    CLF: 0.022916
+    CLP: 905.767482
+    CNH: 6.812653
+    CNY: 6.824762
+    COP: 3700.02905
+    CRC: 455.613004
     CUP: 24.0
-    CVE: 94.266712
-    CZK: 20.847598
+    CVE: 93.8377
+    CZK: 20.697471
     DJF: 177.721
-    DKK: 6.379943
-    DOP: 59.522218
-    DZD: 132.49668
-    EGP: 53.531117
+    DKK: 6.349867
+    DOP: 59.529869
+    DZD: 132.353922
+    EGP: 52.725991
     ERN: 15.0
-    ETB: 156.11196
-    EUR: 0.854912
-    FJD: 2.195161
-    FKP: 0.738543
-    FOK: 6.379892
-    GBP: 0.738544
-    GEL: 2.68694
-    GGP: 0.738543
-    GHS: 11.23039
-    GIP: 0.738543
-    GMD: 74.156734
-    GNF: 8765.879265
-    GTQ: 7.648105
-    GYD: 209.222454
-    HKD: 7.833356
-    HNL: 26.608581
-    HRK: 6.441324
-    HTG: 130.891175
-    HUF: 310.856091
-    IDR: 17411.491257
-    ILS: 2.957517
-    IMP: 0.738543
-    INR: 95.228037
-    IQD: 1309.029035
-    IRR: 1181594.183978
-    ISK: 122.674483
-    JEP: 0.738543
-    JMD: 157.563882
+    ETB: 155.803137
+    EUR: 0.851021
+    FJD: 2.185355
+    FKP: 0.735331
+    FOK: 6.349574
+    GBP: 0.735331
+    GEL: 2.684957
+    GGP: 0.735331
+    GHS: 11.234156
+    GIP: 0.735331
+    GMD: 74.149701
+    GNF: 8774.371344
+    GTQ: 7.632954
+    GYD: 209.286502
+    HKD: 7.835511
+    HNL: 26.589148
+    HRK: 6.412009
+    HTG: 130.797046
+    HUF: 305.074401
+    IDR: 17373.777108
+    ILS: 2.904242
+    IMP: 0.735331
+    INR: 94.668278
+    IQD: 1310.289351
+    IRR: 1245492.607633
+    ISK: 122.021074
+    JEP: 0.735331
+    JMD: 157.486679
     JOD: 0.709
-    JPY: 157.115323
-    KES: 129.126927
-    KGS: 87.514433
-    KHR: 4029.197168
-    KID: 1.394167
-    KMF: 420.58842
-    KRW: 1473.854485
-    KWD: 0.307735
+    JPY: 156.310805
+    KES: 129.165462
+    KGS: 87.492088
+    KHR: 4018.580742
+    KID: 1.381744
+    KMF: 418.674303
+    KRW: 1447.353141
+    KWD: 0.307375
     KYD: 0.833333
-    KZT: 463.728266
-    LAK: 21957.106729
+    KZT: 463.0173
+    LAK: 21932.217755
     LBP: 89500.0
-    LKR: 319.456009
-    LRD: 183.863809
-    LSL: 16.7659
-    LYD: 6.356209
-    MAD: 9.238621
-    MDL: 17.226344
-    MGA: 4163.420422
-    MKD: 52.703307
-    MMK: 2100.38562
-    MNT: 3593.239418
-    MOP: 8.068357
-    MRU: 39.987836
-    MUR: 46.749493
-    MVR: 15.448455
-    MWK: 1741.995101
-    MXN: 17.493021
-    MYR: 3.953033
-    MZN: 63.560061
-    NAD: 16.7659
-    NGN: 1369.752558
-    NIO: 36.795108
-    NOK: 9.268178
-    NPR: 152.363055
-    NZD: 1.701855
+    LKR: 320.170207
+    LRD: 183.295542
+    LSL: 16.396765
+    LYD: 6.345024
+    MAD: 9.199024
+    MDL: 17.202322
+    MGA: 4176.267863
+    MKD: 52.656928
+    MMK: 2099.806659
+    MNT: 3606.587889
+    MOP: 8.070577
+    MRU: 40.112276
+    MUR: 46.817347
+    MVR: 15.45285
+    MWK: 1739.133509
+    MXN: 17.25628
+    MYR: 3.926787
+    MZN: 63.691871
+    NAD: 16.396765
+    NGN: 1360.746278
+    NIO: 36.786578
+    NOK: 9.285716
+    NPR: 151.468912
+    NZD: 1.678759
     OMR: 0.384497
     PAB: 1.0
-    PEN: 3.511654
-    PGK: 4.37282
-    PHP: 61.692633
-    PKR: 279.369416
-    PLN: 3.637588
-    PYG: 6297.463615
+    PEN: 3.479704
+    PGK: 4.344324
+    PHP: 60.883695
+    PKR: 278.784415
+    PLN: 3.601189
+    PYG: 6174.622227
     QAR: 3.64
-    RON: 4.438394
-    RSD: 100.316819
-    RUB: 74.995908
-    RWF: 1465.014954
+    RON: 4.475453
+    RSD: 99.815545
+    RUB: 74.816132
+    RWF: 1464.410715
     SAR: 3.75
-    SBD: 7.943487
-    SCR: 14.43481
-    SDG: 454.183839
-    SEK: 9.274644
-    SGD: 1.276138
-    SHP: 0.738543
-    SLE: 24.673437
-    SLL: 24673.436702
-    SOS: 571.458932
-    SRD: 37.559959
-    SSP: 4636.168712
-    STN: 20.945309
-    SYP: 112.417055
-    SZL: 16.7659
-    THB: 32.620746
-    TJS: 9.386904
-    TMT: 3.499979
-    TND: 2.888752
-    TOP: 2.381361
-    TRY: 45.212756
-    TTD: 6.760476
-    TVD: 1.394167
-    TWD: 31.680324
-    TZS: 2582.700668
-    UAH: 44.008114
-    UGX: 3726.433986
-    UYU: 40.285497
-    UZS: 11880.660232
-    VES: 490.0442
-    VND: 26179.908402
-    VUV: 118.067366
-    WST: 2.680723
-    XAF: 560.78456
+    SBD: 7.928252
+    SCR: 14.437212
+    SDG: 544.372574
+    SEK: 9.230818
+    SGD: 1.268226
+    SHP: 0.735331
+    SLE: 24.713443
+    SLL: 24713.443117
+    SOS: 571.702532
+    SRD: 37.487536
+    SSP: 4645.641319
+    STN: 20.849985
+    SYP: 113.519074
+    SZL: 16.396765
+    THB: 32.233196
+    TJS: 9.365082
+    TMT: 3.499859
+    TND: 2.881432
+    TOP: 2.352225
+    TRY: 45.255706
+    TTD: 6.753618
+    TVD: 1.381744
+    TWD: 31.41467
+    TZS: 2605.404562
+    UAH: 43.887716
+    UGX: 3754.171876
+    UYU: 40.182979
+    UZS: 12104.17092
+    VES: 496.8301
+    VND: 26244.521965
+    VUV: 118.303423
+    WST: 2.686236
+    XAF: 558.232403
     XCD: 2.7
     XCG: 1.79
-    XDR: 0.727842
-    XOF: 560.78456
-    XPF: 102.018186
-    YER: 238.730712
-    ZAR: 16.758019
-    ZMW: 18.830661
-    ZWG: 25.4146
-    ZWL: 25.4146
+    XDR: 0.726646
+    XOF: 558.232403
+    XPF: 101.553896
+    YER: 238.569357
+    ZAR: 16.396784
+    ZMW: 18.914603
+    ZWG: 25.5081
+    ZWL: 25.5081
 rankings:
   top_projects:
   - name: Mariachi Legends - A Combat Oriented Metroidvania
@@ -201,7 +201,7 @@ rankings:
     currency: USD
     pledged_original: 232365.18
     usd: 232365.18
-    mxn: 4064768.9734087796
+    mxn: 4009758.6083303997
     url: https://www.kickstarter.com/projects/alonsomartin/heart-forth-alicia
     launched_at_iso: '2014-04-16T04:17:53Z'
     launched_at_epoch: 1397621873
@@ -361,7 +361,7 @@ rankings:
     currency: USD
     pledged_original: 19062.0
     usd: 19062.0
-    mxn: 333451.966302
+    mxn: 328939.20936
     url: https://www.kickstarter.com/projects/miracleppg/dreamshot-fantasia
     launched_at_iso: '2023-12-01T17:59:50Z'
     launched_at_epoch: 1701453590
@@ -409,7 +409,7 @@ rankings:
     currency: USD
     pledged_original: 14681.01
     usd: 14681.01
-    mxn: 256815.21623120998
+    mxn: 253339.61924280002
     url: https://www.kickstarter.com/projects/445840357/broken-reality-0
     launched_at_iso: '2017-12-06T15:45:06Z'
     launched_at_epoch: 1512575106
@@ -713,7 +713,7 @@ rankings:
     currency: CAD
     pledged_original: 5915.53
     usd: 5648.6213455553
-    mxn: 76013.3650931725
+    mxn: 74947.42524599456
     url: https://www.kickstarter.com/projects/1571402711/elliot-quest
     launched_at_iso: '2013-11-01T17:42:52Z'
     launched_at_epoch: 1383327772
@@ -969,7 +969,7 @@ rankings:
     currency: USD
     pledged_original: 1635.0
     usd: 1635.0
-    mxn: 28601.089334999997
+    mxn: 28214.0178
     url: https://www.kickstarter.com/projects/shadowboxvr/shadowbox-vr-a-rhythm-based-boxing-game
     launched_at_iso: '2019-03-11T16:00:24Z'
     launched_at_epoch: 1552320024
@@ -988,7 +988,7 @@ rankings:
   - creator: Alonso Martin
     projects: 1
     usd_total: 232365.18
-    mxn_total: 4064768.9734087796
+    mxn_total: 4009758.6083303997
     creator_url: https://www.kickstarter.com/profile/alonsomartin
     creator_photo_url: https://i.kickstarter.com/assets/008/558/359/312c381e359606dbf494eb23a76342cc_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1461531404&width=160&sig=Mye%2BzQRDyorEc686gcCT1SvnTllZfsT3hjrYGh3w0hw%3D
   - creator: Ogre Pixel
@@ -1036,7 +1036,7 @@ rankings:
   - creator: Miracle
     projects: 1
     usd_total: 19062.0
-    mxn_total: 333451.966302
+    mxn_total: 328939.20936
     creator_url: https://www.kickstarter.com/profile/miracleppg
     creator_photo_url: https://i.kickstarter.com/assets/043/158/090/248914c55ea3673767f19f9c92229987_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1700690963&width=160&sig=rFLQFPdZo5iADJrbjmrJP2tSh2m1Pa3VLvV3dRu35n8%3D
   - creator: SleP16
@@ -1054,7 +1054,7 @@ rankings:
   - creator: Dynamic Media Triad
     projects: 1
     usd_total: 14681.01
-    mxn_total: 256815.21623120998
+    mxn_total: 253339.61924280002
     creator_url: ''
     creator_photo_url: https://i.kickstarter.com/assets/019/460/482/3214da8f7c5ad1547b2bac3a72f9a986_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1512165180&width=160&sig=7NHfYnVTtYL%2F3SMkOlLfjmBgZWCpwjQDIoSSBDYahPw%3D
   - creator: Pandita Studio
@@ -1162,7 +1162,7 @@ rankings:
   - creator: Ansimuz Games
     projects: 1
     usd_total: 5648.6213455553
-    mxn_total: 76013.3650931725
+    mxn_total: 74947.42524599456
     creator_url: ''
     creator_photo_url: https://i.kickstarter.com/assets/007/091/396/c7b83364b5efe7baf316c7fb24d00cf1_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1461434032&width=160&sig=5MbqTMyhXGlAPWP1J8r82FmdHEP4UJRs9bq6iKsUzV0%3D
   - creator: mariela santiz sanchez
@@ -1240,7 +1240,7 @@ rankings:
   - creator: Bixelium Entertainment
     projects: 1
     usd_total: 1635.0
-    mxn_total: 28601.089334999997
+    mxn_total: 28214.0178
     creator_url: https://www.kickstarter.com/profile/shadowboxvr
     creator_photo_url: https://i.kickstarter.com/assets/024/020/120/f5669f9b62376638c563c1d4969398e4_original.png?anim=false&fit=cover&height=160&origin=ugc&q=92&v=1550535062&width=160&sig=4Swz4IRiq6h3xcSPmR%2BtejFIwZyBzTDcmxkkLjkXvtw%3D
   - creator: JUAN ENRIQUE PEDRAZA REJON
