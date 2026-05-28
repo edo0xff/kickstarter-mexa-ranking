@@ -57,7 +57,7 @@ jobs:
           --output-file data/current/ks_stats.yaml
           --top-n 50
           --no-show-chart
-          --delay-ms 600
+          --delay-ms 1200
 
       # ── Commit updated YAML ───────────────────────────────────
       - name: Commit updated data
