@@ -17,11 +17,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scrape-and-deploy:
+  update-data:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -41,10 +38,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
-
-      - name: Install frontend dependencies
-        run: npm ci
 
       - name: Rotate data (current → last)
         run: node scripts/rotate-data.mjs
@@ -67,20 +60,3 @@ jobs:
           git add data/current/ks_stats.yaml data/last/ks_stats.yaml
           git diff --cached --quiet || git commit -m "chore: update rankings data [skip ci]"
           git push
-
-      # ── Astro build ───────────────────────────────────────────
-      - name: Build Astro site
-        run: npm run build:static
-
-      # ── Deploy to GitHub Pages ────────────────────────────────
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
