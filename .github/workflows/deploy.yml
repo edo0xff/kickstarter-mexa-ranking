@@ -3,7 +3,7 @@ name: Deploy Rankings Site
 on:
   schedule:
     # Runs every day at 06:10 UTC, after the data update workflow
-    - cron: '10 6 * * *'
+    - cron: '10 6 1 * *'
   workflow_dispatch:
 
 permissions:
