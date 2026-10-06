@@ -3,7 +3,7 @@ name: Update Rankings & Deploy
 on:
   schedule:
     # Runs every day at 06:00 UTC
-    - cron: '0 6 1 * *'
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -49,8 +49,10 @@ jobs:
           --output-format yaml
           --output-file data/current/ks_stats.yaml
           --top-n 50
+          --max-pages 5
+          --max-projects 400
           --no-show-chart
-          --delay-ms 1200
+          --delay-ms 30000
 
       # ── Commit updated YAML ───────────────────────────────────
       - name: Commit updated data
